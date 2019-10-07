@@ -1,0 +1,94 @@
+body{
+    background: black;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background: grey;
+    font-family: 'Saira Stencil One', cursive;
+}
+
+h3{
+    color: white;
+}
+
+.img-logo{
+    margin: 1rem;
+}
+
+#logo{
+    height: 2rem;
+    width: 2rem;
+}
+
+.menu{
+    margin-right: 1rem;
+}
+
+.navbar{
+    margin-left: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    margin: .2rem;
+}
+
+nav > ul > li{
+    float: left;
+} 
+
+.content{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: .1rem;
+}
+
+.sidebar ul{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    list-style: none;
+}
+
+.sidebar ul li{
+    margin: .2rem;
+    border-radius: .2rem;
+    width: 12.2rem;
+    height: 3rem;
+    margin: 1rem;
+    padding: .4rem; 
+    background: grey;
+}
+
+input[type="text"]{
+    padding: .1rem;
+    text-align: center;
+    border: 0;
+    margin: .1rem;
+    width: 190px;
+}
+
+input[type="button"]{
+    border: 0;
+    height: 1.3rem;
+    margin: .2rem;
+    border-radius: .1rem;
+    background: rgb(59, 122, 223);
+}
+
+footer{
+    background: grey;
+    position: absolute;
+    bottom: 1%;
+}

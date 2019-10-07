@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lista de tareas</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="public/css/estilo.css">
+
+</head>
+<body>
+    
+    <header>
+        <div class="img-logo">
+            <img src="public/img/logo.png" id="logo" alt="logo">
+        </div>
+        <h1 class="titulo">To Do List</h1>
+        <div id="navbar" class="navbar">
+            <nav class="menu">
+                <ul>         
+                    <li><input type="text" name="nombreTarea" id="nombreTarea" class="add"></li>
+                    <li><input type="button" class="add" onclick="agregar();" value="Agregar"></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="content">
+        <aside id="sidebar" class="sidebar">
+            <ul></ul>
+        </aside>
+    </div>
+
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eveniet corporis, reiciendis quas nihil, maiores aliquid enim maxime incidunt vitae laboriosam repellat voluptates explicabo impedit vero molestiae. Porro, ipsam corrupti</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="jquery-1.12.0.min.js"></script>
+
+</body>
+</html>
