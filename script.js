@@ -28,6 +28,7 @@ function agregar(){
         
         var buttonEdit = document.createElement('input');
         buttonEdit.setAttribute('type','button');
+        buttonEdit.setAttribute('id','editar'+cont);
         newTrasck.setAttribute('class','boton');
         buttonEdit.setAttribute('onclick','editar('+cont+')'); 
         buttonEdit.value = "Editar";
@@ -52,6 +53,9 @@ function eliminar(id){
 
 function editar(id){
     
+    const buttonEditar = document.getElementById('editar'+id);
+    buttonEditar.disabled=true;
+
     var buttonAceptar = document.createElement('input');
     buttonAceptar.setAttribute('type','button');
     buttonAceptar.setAttribute('class','boton');
@@ -68,6 +72,10 @@ function editar(id){
 }
 
 function actualizar(id){
+    
+    const buttonEditar = document.getElementById('editar'+id);
+    buttonEditar.disabled=false;
+
     const trasck = document.getElementById('trasck'+id);
     trasck.readOnly=true;
 
